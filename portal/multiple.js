@@ -1,7 +1,7 @@
 import { loadMicroApp } from '../../es';
 
 const app1 = loadMicroApp(
-  { name: 'react15', entry: '//localhost:7102', container: '#react15' },
+  { name: 'app1', entry: '//localhost:8081', container: '#root' },
   {
     sandbox: {
       // strictStyleIsolation: true,
@@ -10,7 +10,7 @@ const app1 = loadMicroApp(
 );
 
 const app2 = loadMicroApp(
-  { name: 'vue', entry: '//localhost:7101', container: '#vue' },
+  { name: 'app2', entry: '//localhost:8082', container: '#app' },
   {
     sandbox: {
       // strictStyleIsolation: true,

@@ -1,0 +1,2 @@
+(window.webpackJsonp_app1=window.webpackJsonp_app1||[]).push([[3],{167:function(e,n,a){"use strict";a.r(n);var p=a(0),t=a.n(p);n.default=function(){return t.a.createElement("h2",{className:"app-nav-item",style:{borderColor:"green"}},"About")}}}]);
+//# sourceMappingURL=3.4ee643ef.chunk.js.map

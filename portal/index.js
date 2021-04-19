@@ -22,7 +22,7 @@ registerMicroApps(
   [
     {
       name: 'app1',
-      entry: '//192.168.2.192:7100',
+      entry: '//120.78.86.143:8081',
       // entry: process.env.NODE_ENV === 'production' ? '//main.ppap.live:7100' : '//localhost:7100',
       container: '#subapp-viewport',
       loader,
@@ -30,7 +30,7 @@ registerMicroApps(
     },
     {
       name: 'app2',
-      entry: '//192.168.2.192:7101',
+      entry: '//120.78.86.143:8082',
       // entry: process.env.NODE_ENV === 'production' ? '//main.ppap.live:7101' : '//localhost:7101',
       container: '#subapp-viewport',
       loader,
